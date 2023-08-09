@@ -1,4 +1,4 @@
-const POWERBALLAPI_URL = 'http://localhost:8010/proxy';
+const POWERBALLAPI_URL = 'https://dark-rose-betta-ring.cyclic.app/';
 
 
 fetch(POWERBALLAPI_URL).then(response => response.json())
@@ -6,6 +6,7 @@ fetch(POWERBALLAPI_URL).then(response => response.json())
         console.log(error)
     }); 
     
+
 
 /*
     fetch('https://dark-rose-betta-ring.cyclic.app/', {
