@@ -1,7 +1,14 @@
 const POWERBALLAPI_URL = 'https://dark-rose-betta-ring.cyclic.app/2023';
 
+
+//array to store all drawing arrays
 var drawings = [];
+
+//Array to store all of the dates and numbers
 var dates =[];
+
+//Var to help count when the next
+//array is in the json 
 var i =0;
     fetch(POWERBALLAPI_URL)
         .then(response => response.json())
@@ -19,4 +26,8 @@ var i =0;
      }
 })
 
-console.log(drawings)
+function myFunction(){
+    console.log(drawings)
+    document.getElementById("all").innerText
+}
+//console.log(drawings)
